@@ -6,14 +6,12 @@ public class Ex703 {
 		Cat c2 = new Cat();
 		Cat c3 = new Cat();
 		
-		c1.setName("iron Man");
+		c1.setName("Iron Man");
 		c2.setName("Thor");
 		c3.setName("Wolverine");
 		
 		c1.eat();
 		c2.scratch();
 		c3.sound();
-		
 	}
-
 }

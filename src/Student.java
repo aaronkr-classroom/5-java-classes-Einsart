@@ -2,7 +2,8 @@ public class Student {
 	int id;
 	String name;
 	
-	Student() { System.out.println("학생 생성");}
+	// 메서드 오버로딩 (긑은 클래스에서)
+	Student() { System.out.println("학생 생성"); }
 	Student(int id, String name) {
 		insertRecord(id, name);
 	}
@@ -14,7 +15,6 @@ public class Student {
 	
 	void printInfo() {
 		System.out.println("아이디: " + this.id);
-		System.out.println("이름 : " + this.name);
+		System.out.println("이름: " + this.name);
 	}
-
 }
